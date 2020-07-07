@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquirrelFramework.MongoDB", "SquirrelFramework.MongoDB\SquirrelFramework.MongoDB.csproj", "{0E59190B-0E7C-4CA1-ABA6-BF5EB00E118F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Miscellaneous", "Miscellaneous", "{C46D1928-3A88-4349-8DCD-D78FF516CABB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5DE344F5-77F7-49D5-BDBC-41178F98C8E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Console.NetCore31", "Test.Console.NetCore31\Test.Console.NetCore31.csproj", "{A93839EB-37FD-4EFA-BC9A-3175AF48C6B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Console.NetFramework472", "Test.Console.NetFramework472\Test.Console.NetFramework472.csproj", "{AD19FD1C-EAD3-432F-8D6B-FE68FD139008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.WindowsForms.NetFramework472", "Test.WindowsForms.NetFramework472\Test.WindowsForms.NetFramework472.csproj", "{68833075-8FAE-4529-AFA8-8353CF693DBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E59190B-0E7C-4CA1-ABA6-BF5EB00E118F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E59190B-0E7C-4CA1-ABA6-BF5EB00E118F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E59190B-0E7C-4CA1-ABA6-BF5EB00E118F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E59190B-0E7C-4CA1-ABA6-BF5EB00E118F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93839EB-37FD-4EFA-BC9A-3175AF48C6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93839EB-37FD-4EFA-BC9A-3175AF48C6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93839EB-37FD-4EFA-BC9A-3175AF48C6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93839EB-37FD-4EFA-BC9A-3175AF48C6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD19FD1C-EAD3-432F-8D6B-FE68FD139008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD19FD1C-EAD3-432F-8D6B-FE68FD139008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD19FD1C-EAD3-432F-8D6B-FE68FD139008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD19FD1C-EAD3-432F-8D6B-FE68FD139008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68833075-8FAE-4529-AFA8-8353CF693DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68833075-8FAE-4529-AFA8-8353CF693DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68833075-8FAE-4529-AFA8-8353CF693DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68833075-8FAE-4529-AFA8-8353CF693DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A93839EB-37FD-4EFA-BC9A-3175AF48C6B2} = {5DE344F5-77F7-49D5-BDBC-41178F98C8E9}
+		{AD19FD1C-EAD3-432F-8D6B-FE68FD139008} = {5DE344F5-77F7-49D5-BDBC-41178F98C8E9}
+		{68833075-8FAE-4529-AFA8-8353CF693DBF} = {5DE344F5-77F7-49D5-BDBC-41178F98C8E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {846420FF-A601-40AD-8108-5727656019DE}
+	EndGlobalSection
+EndGlobal
