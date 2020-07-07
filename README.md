@@ -1,7 +1,7 @@
-SquirrelFramework.MongoDB 0.9.0
+SquirrelFramework.MongoDB 0.9.2
 ===============
 
-Squirrel Framework - A lightweight back-end framework and utilities kit based on MongoDB / Redis.
+Squirrel Framework - A lightweight back-end framework and utilities kit based on MongoDB.
 
 The word Squirrel has the meaning of squirrels and storage. The Squirrel Framework is working to make your MongoDB / Azure Cosmos DB-based applications lightweight and fast.
 
@@ -16,19 +16,19 @@ The word Squirrel has the meaning of squirrels and storage. The Squirrel Framewo
 Get Package
 ------------
 
-You can get the latest stable release from the [official Nuget.org feed](https://www.nuget.org/packages/SquirrelFramework)
+You can get the latest stable release from the [official Nuget.org feed](https://www.nuget.org/packages/SquirrelFramework.MongoDB)
 
-<https://www.nuget.org/packages/SquirrelFramework>
+<https://www.nuget.org/packages/SquirrelFramework.MongoDB>
 
 Getting Started
 ---------------
 
 1. Create a .NET project, please ensure that the target framework `MUST be .NET Framework 4.6.1 or later`
 
-1. Get the Nuget package by searcing the keyword "SquirrelFramework" or using the Project Manager
+1. Get the Nuget package by searching the keyword "SquirrelFramework.MongoDB" or using the Project Manager
 
     ```Shell
-    Install-Package SquirrelFramework -Version 1.0.15.1
+    Install-Package SquirrelFramework.MongoDB -Version 0.9.2
     ```
 
 1. Create your Domain Model
@@ -45,7 +45,7 @@ Getting Started
         public int Age { get; set; }
     }
     ```
-    `The [Database] attribute is not necessary`, you can set the default MongoDB database name at `/Config/mongodb.config`
+    `The [Database] attribute is not necessary`, you can set the default MongoDB database name at `mongodb.json`
 
     `Since 1.0.14 the [Collection] attribute is no longer required.` If you not specified the [Collection] attribute, the Squirrel Framework use the class name as the collection name.
 
