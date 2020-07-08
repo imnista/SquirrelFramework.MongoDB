@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Miscellaneous", "Miscellane
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5DE344F5-77F7-49D5-BDBC-41178F98C8E9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{5DE344F5-77F7-49D5-BDBC-41178F98C8E9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Console.NetCore31", "Test.Console.NetCore31\Test.Console.NetCore31.csproj", "{A93839EB-37FD-4EFA-BC9A-3175AF48C6B2}"
 EndProject
