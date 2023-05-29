@@ -36,11 +36,11 @@ Getting Started
 1. Create your Domain Model
 
     ```C#
-    using SquirrelFramework.Domain.Model;
+    using SquirrelFramework.Model;
 
     [Database("YourDatabaseName")]
     [Collection("UsersCollectionName")]
-    public class User : DomainModel
+    public class User : Document
     {
         public string Name { get; set; }
         public string Gender { get; set; }
